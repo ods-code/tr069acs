@@ -22,7 +22,7 @@ The application turns your computer into an ACS (Auto Configuration Server). Whe
 
 **VLAN Mirroring** — Modems may send traffic with different VLAN tags. This feature automatically detects the VLAN tags used by the modem and mirrors them, ensuring uninterrupted communication.
 
-**DNS Redirect** — Modems typically try to connect to an ACS address defined by the ISP (e.g., acs.turktelekom.com.tr). DNS redirect intercepts all DNS requests and directs the modem to connect to your computer instead.
+**DNS Redirect** — DNS redirect intercepts all DNS requests and directs the modem to connect to your computer instead.
 
 **TR-069 / CWMP Engine** — Once the modem establishes a connection, communication begins via the TR-069 protocol. The modem sends an Inform message to identify itself. You can then query the parameters the modem supports with GetParameterNames, read their current values with GetParameterValues, and change values with SetParameterValues.
 
