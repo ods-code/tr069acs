@@ -22,7 +22,7 @@ Uygulama, bilgisayarinizi bir ACS (Auto Configuration Server) sunucusuna dönüs
 
 **VLAN Mirroring** — Modemler farkli VLAN etiketleri ile trafik gönderebilir. Bu özellik, modemin kullandigi VLAN etiketlerini otomatik olarak algilar ve aynalayarak iletisimin kesilmemesini saglar.
 
-**DNS Yönlendirme** — Modemler genellikle ISP tarafindan tanimlanan bir ACS adresine (örn. acs.turktelekom.com.tr) baglanmaya çalisir. DNS yönlendirme, tüm DNS isteklerini yakalayarak modemin sizin bilgisayariniza baglanmasini saglar.
+**DNS Yönlendirme** — DNS yönlendirme, tüm DNS isteklerini yakalayarak modemin sizin bilgisayariniza baglanmasini saglar.
 
 **TR-069 / CWMP Motoru** — Modem baglanti kurduktan sonra, TR-069 protokolü üzerinden modemle haberlesme baslar. Modem Inform mesaji göndererek kendini tanitir. Ardindan GetParameterNames ile modemin destekledigi parametreleri, GetParameterValues ile mevcut degerlerini sorgulayabilir, SetParameterValues ile degerleri degistirebilirsiniz.
 
