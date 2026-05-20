@@ -64,6 +64,7 @@ Birden fazla ACS portu, farkli modemlerin farkli portlara baglanmasi durumunda e
 - Windows 10 veya Windows 11
 - Modeme dogrudan Ethernet baglantisi
 - Yönetici yetkisi (port 80 ve raw socket erisimi için)
+- Npcap uygulamasının yüklenmesi zorunludur. Npcap uygulama yüklü değilse, çalışmayacak veya açılmayacaktır.
 
 ---
 
