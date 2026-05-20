@@ -64,7 +64,7 @@ Multiple ACS ports provide flexibility for different modems connecting on differ
 - Windows 10 or Windows 11
 - Direct Ethernet connection to the modem
 - Administrator privileges (for port 80 and raw socket access)
-
+- The installation of the npcap application is mandatory.  If the npcap application is not installed, it will not work or open.
 ---
 
 Powered by **OnDiso**
